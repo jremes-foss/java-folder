@@ -1,0 +1,23 @@
+/*
+ *
+ *  Multiplication tables
+ *  Demonstrates the usage of for-loops
+ *
+ */
+
+ import java.util.Scanner;
+
+ public class Multiply {
+   public static void main(String[] args) {
+     int x, y;
+     System.out.println("Enter an integer:");
+     System.out.print("> ");
+     Scanner multiply = new Scanner(System.in);
+     x = multiply.nextInt();
+     System.out.println("Multiplication table of number "+x+" is:");
+
+     for (y = 1; y <= 10; y++) {
+       System.out.println(x+"*"+y+" = "+(x*y));
+     }
+   }
+ }
