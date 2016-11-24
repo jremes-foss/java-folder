@@ -19,10 +19,6 @@ public class Strings {
 
     String removedStr = str.substring(0, pos) + str.substring(pos + 1);
 
-    if (str.length() == 0 || str == null) {
-      removedStr.equals("");
-    }
-
     return removedStr;
   }
 }

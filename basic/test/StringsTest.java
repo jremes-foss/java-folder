@@ -12,6 +12,6 @@ public class StringsTest {
 
     // Assertions
     assertEquals("Hllo", tester.removeCharacter("Hello", 1));
-    assertEquals("", tester.removeCharacter("", 2));
+    assertEquals("Worl", tester.removeCharacter("World", 4));
   }
 }
