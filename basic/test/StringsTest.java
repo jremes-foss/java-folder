@@ -14,4 +14,11 @@ public class StringsTest {
     assertEquals("Hllo", tester.removeCharacter("Hello", 1));
     assertEquals("Worl", tester.removeCharacter("World", 4));
   }
+
+  @Test
+  public void reverseStringTest() {
+
+      Strings tester = new Strings();
+      assertEquals("dlroW olleH", tester.reverseString("Hello World"));
+  }
 }
