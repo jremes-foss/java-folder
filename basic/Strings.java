@@ -38,4 +38,15 @@ public class Strings {
 
       return reverse;
   }
+
+  public static int howMany(String haystack, char needle) {
+      int count = 0;
+
+      for (int index = 0; index < haystack.length(); index++) {
+          if (haystack.charAt(index) == needle) {
+              count++;
+          }
+      }
+      return count;
+  }
 }

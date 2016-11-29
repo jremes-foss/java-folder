@@ -21,4 +21,10 @@ public class StringsTest {
       Strings tester = new Strings();
       assertEquals("dlroW olleH", tester.reverseString("Hello World"));
   }
+
+  @Test
+  public void howManyTest() {
+    Strings tester = new Strings();
+    assertEquals(2, tester.howMany("Hello, World", 'o'));
+  }
 }
