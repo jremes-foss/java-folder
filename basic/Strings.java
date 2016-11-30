@@ -8,7 +8,8 @@
 public class Strings {
 
   /**
-   *  Removes a character from a string
+   *  Removes a character from a string.
+   *
    *  @param str
    *  @param pos
    *  @return removedStr
@@ -23,10 +24,10 @@ public class Strings {
   }
 
     /**
-     * Reverses a string
+     * Reverses a string.
      *
      * @param str
-     * @return
+     * @return reverse
      */
 
   public static String reverseString(String str) {
@@ -38,6 +39,15 @@ public class Strings {
 
       return reverse;
   }
+
+   /**
+    * Counts how many times character occurs in a string.
+    * Demonstrates a basic needle/haystack functionality.
+    *
+    * @param haystack
+    * @param needle
+    * @return int
+    */
 
   public static int howMany(String haystack, char needle) {
       int count = 0;
