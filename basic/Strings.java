@@ -59,4 +59,26 @@ public class Strings {
       }
       return count;
   }
+
+  /**
+    * Compares string lengths. Returns which ever of two strings
+    * is longer. Demonstrates str.length() method usage.
+    *
+    * @param a
+    * @param b
+    * @return String
+    */
+
+  public static String compareLen(String a, String b) {
+      int aLen = a.length();
+      int bLen = b.length();
+
+      if (aLen > bLen) {
+          return a;
+      } else if (aLen < bLen) {
+          return b;
+      } else {
+          return "Both";
+      }
+  }
 }

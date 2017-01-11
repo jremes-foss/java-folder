@@ -27,4 +27,10 @@ public class StringsTest {
     Strings tester = new Strings();
     assertEquals(2, tester.howMany("Hello, World", 'o'));
   }
+
+  @Test
+  public void compareLenTest() {
+    Strings tester = new Strings();
+    assertEquals("Foobar", tester.compareLen("Foobar", "Foo"));
+  }
 }
