@@ -64,8 +64,8 @@ public class Strings {
     * Compares string lengths. Returns which ever of two strings
     * is longer. Demonstrates str.length() method usage.
     *
-    * @param a
-    * @param b
+    * @param a first string
+    * @param b second string
     * @return String
     */
 
