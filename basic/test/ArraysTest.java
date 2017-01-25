@@ -13,4 +13,11 @@ public class ArraysTest {
         assertEquals(true, tester.containsVal(haystack, 8));
         assertEquals(false, tester.containsVal(haystack, 12));
     }
+
+    @Test
+    public void returnIndexTest() {
+        Arrays tester = new Arrays();
+        int[] haystack = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        assertEquals(0, tester.returnIndex(haystack, 1));
+    }
 }

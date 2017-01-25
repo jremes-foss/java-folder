@@ -27,4 +27,26 @@ public class Arrays {
 
     }
 
+    /**
+     * Searches for a value in an integer array.
+     * Once found, return the index. Otherwise,
+     * return -1. Demonstrates alternative way to use
+     * for-loops in an integer array.
+     *
+     * @param haystack
+     * @param needle
+     * @return int
+     */
+
+    public static int returnIndex(int[] haystack, int needle) {
+        for (int i = 0; i < haystack.length; i++) {
+            if (haystack[i] == needle) {
+                return i;
+            }
+        }
+
+        return -1;
+
+    }
+
 }
