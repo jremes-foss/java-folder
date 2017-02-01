@@ -1,3 +1,4 @@
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
@@ -19,5 +20,12 @@ public class ArraysTest {
         Arrays tester = new Arrays();
         int[] haystack = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         assertEquals(0, tester.returnIndex(haystack, 1));
+    }
+
+    @Test
+    public void calculateSumTest() {
+        Arrays tester = new Arrays();
+        int[] testArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        assertEquals(55, tester.calculateSum(testArray));
     }
 }

@@ -49,4 +49,22 @@ public class Arrays {
 
     }
 
+    /**
+     * Calculates the sum of first n natural numbers. Demonstrates
+     * the summation over an array.
+     *
+     * @param numbers
+     * @return int
+     */
+
+    public static int calculateSum(int[] numbers) {
+        int sum = 0;
+
+        for (int i = 0; i < numbers.length; i++) {
+            sum = sum + numbers[i];
+        }
+
+        return sum;
+    }
+
 }
